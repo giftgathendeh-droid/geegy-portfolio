@@ -1,88 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geegy — Creative Strategist & Video Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
-    <main class="hero">
-        <p class="eyebrow">GEEGY</p>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#" class="logo">GEEGY</a>
 
-        <h1>Creative work<br>with purpose.</h1>
+        <nav>
+            <a href="#work">Work</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <p class="role">
-            Creative Strategist • Video Editor • Social Media Manager
-        </p>
 
-        <p class="intro">
-            I create content, manage social presence, and turn ideas into
-            digital experiences.
-        <link rel="stylesheet" href="style.css">
-        </p>
+    <!-- HERO -->
+    <main>
 
-        <section class="services">
-            <h2>What I do</h2>
+        <section class="hero">
+            <p class="eyebrow">CREATIVE STRATEGIST • VIDEO EDITOR • SOCIAL MEDIA MANAGER</p>
+
+            <h1>
+                Creative work<br>
+                with purpose.
+            </h1>
+
+            <p class="intro">
+                I create content, manage social presence, and turn ideas
+                into digital experiences.
+            </p>
+
+            <a href="#work" class="hero-button">View my work ↓</a>
+        </section>
+
+
+        <!-- SERVICES -->
+        <section class="services" id="services">
+
+            <p class="eyebrow">WHAT I DO</p>
+
+            <h2>Creative services built for the digital world.</h2>
 
             <div class="service-list">
+
                 <div class="service">
+                    <span>01</span>
                     <h3>Video Editing</h3>
-                    <p>Short-form and social content edited to keep people watching.</p>
+                    <p>
+                        Short-form and social content edited to keep people
+                        watching and communicate the idea clearly.
+                    </p>
                 </div>
 
                 <div class="service">
+                    <span>02</span>
                     <h3>Social Media Management</h3>
-                    <p>Content planning, posting, captions, and social presence management.</p>
+                    <p>
+                        Content planning, posting, captions, and social
+                        presence management designed around the brand.
+                    </p>
                 </div>
 
                 <div class="service">
+                    <span>03</span>
                     <h3>Creative Strategy</h3>
-                    <p>Turning ideas into content strategies built around a clear goal.</p>
+                    <p>
+                        Turning ideas into practical content strategies
+                        built around a clear goal.
+                    </p>
                 </div>
+
             </div>
         </section>
 
+
+        <!-- SELECTED WORK -->
+        <section class="work" id="work">
+
+            <p class="eyebrow">SELECTED WORK</p>
+
+            <h2>Projects I've worked on.</h2>
+
+            <div class="work-grid">
+
+                <!-- SOLO SAVVY -->
+                <article class="project">
+
+                    <div class="video-wrapper">
+                        <video controls playsinline preload="metadata">
+                            <source src="https://res.cloudinary.com/dhjc4ovk/video/upload/v1789805430/solo-savvy.mp4" type="video/mp4">
+                            Your browser does not support video.
+                        </video>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">SOCIAL MEDIA • VIDEO • STRATEGY</p>
+
+                        <h3>Solo Savvy</h3>
+
+                        <p>
+                            Social media management, content strategy, and
+                            creative content for an AI service built for
+                            detailers.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <!-- GOOD CIRCLE -->
+                <article class="project">
+
+                    <div class="video-wrapper">
+                        <video controls playsinline preload="metadata">
+                            <source
+                                src="https://res.cloudinary.com/dhjc4ovk/video/upload/v1789803639/good-circle.mp4"
+                                type="video/mp4">
+                            Your browser does not support video.
+                        </video>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">SOCIAL CONTENT • EVENTS</p>
+
+                        <h3>Good Circle</h3>
+
+                        <p>
+                            Social content and creative work supporting
+                            events, community, and digital promotion.
+                        </p>
+                    </div>
+
+                </article>
+
+
+                <!-- WAY4NEMI -->
+                <article class="project project-text-only">
+
+                    <div class="project-placeholder">
+                        <span>WAY4NEMI</span>
+                    </div>
+
+                    <div class="project-info">
+                        <p class="project-type">MARKETING</p>
+
+                        <h3>Way4nemi</h3>
+
+                        <p>
+                            Marketing work focused on promoting the brand,
+                            reaching the right audience, and building its
+                            digital presence.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+
+            <p class="eyebrow">LET'S WORK</p>
+
+            <h2>Have a project in mind?</h2>
+
+            <p>
+                I'm open to creative projects, social media work,
+                video editing, and marketing opportunities.
+            </p>
+
+            <a
+                href="mailto:giftgathendeh@gmail.com"
+                class="contact-button">
+                Get in touch →
+            </a>
+
+        </section>
+
     </main>
-    <section class="work">
-    <p class="eyebrow">SELECTED WORK</p>
 
-    <h2>Projects I've worked on.</h2>
 
-    <div class="work-grid">
-        <div class="work-grid">
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Geegy. All rights reserved.</p>
+    </footer>
 
-    <div class="project">
-        <video controls>
-            <source src="videos/solo-savvy.mp4" type="video/mp4">
-        </video>
-
-        <h3>Solo Savvy</h3>
-        <p>Social media management, content strategy, and creative content for an AI service built for detailers.</p>
-    </div>
-    <div class="project">
-    <video controls>
-        <source src="videos/good-circle.mp4" type="video/mp4">
-    </video>
-
-    <h3>Good Circle</h3>
-    <p>Social content and creative work supporting events, community, and digital promotion.</p><video controls playsinline preload="metadata" style="width: 100%; max-width: 400px; border-radius: 16px;">
-  <source src="https://res.cloudinary.com/dhjc4ovk/video/upload/v1789803639/good-circle.mp4" type="video/mp4">
-</video>
-        
-</div>
-    <div class="project">
-    <h3>Way4nemi</h3>
-    <p>Marketing work focused on promoting the brand, reaching the right audience, and building its digital presence.</p>
-</div>
-</div>
-
-    </div>
-<section class="contact">
-    <p class="eyebrow">LET'S WORK</p>
-    <h2>Have a project in mind?</h2>
-    <p>
-        I'm open to creative projects, social media work, video editing,
-        and marketing opportunities.
-    </p>
-
-    <a href="mailto:giftgathendeh@gmail.com">Get in touch</a>
-</section>
-</section>
-<footer>
-    <p>© 2026 Geegy. All rights reserved.</p>
-</footer>
 </body>
+</html>
